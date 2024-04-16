@@ -54,3 +54,14 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+/* General styling */
+body {
+  /* min-height: 100vh; */
+  margin: 1rem;
+  font-family: var(--ff-montserrat);
+  color: var(--dark-grayish-blue);
+  font-size: .875rem;
+  font-weight: var(--fw-regular);
+  background-color: var(--cream);
+}
