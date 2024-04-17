@@ -58,10 +58,23 @@ h6 {
 /* General styling */
 body {
   /* min-height: 100vh; */
-  margin: 1rem;
+  /* margin: 1rem; */
   font-family: var(--ff-montserrat);
   color: var(--dark-grayish-blue);
   font-size: .875rem;
   font-weight: var(--fw-regular);
   background-color: var(--cream);
+}
+
+/* Product styling */
+.product {
+  margin: 1rem;
+  background-color: var(--white);
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+.flex-group {
+  display: flex;
+  gap: 1rem;
 }
