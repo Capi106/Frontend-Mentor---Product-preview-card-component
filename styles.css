@@ -74,6 +74,13 @@ body {
   overflow: hidden;
 }
 
+.product__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
 .flex-group {
   display: flex;
   gap: 1rem;
