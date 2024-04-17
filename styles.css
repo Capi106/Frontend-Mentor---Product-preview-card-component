@@ -88,6 +88,7 @@ body {
 }
 
 .product__category {
+  font-size: .8125rem;
   text-transform: uppercase;
   letter-spacing: 5px;
 }
