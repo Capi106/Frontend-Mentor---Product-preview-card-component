@@ -105,3 +105,10 @@ body {
   align-items: center;
 }
 
+.product__price {
+  font-family: var(--ff-fraunces);
+  font-size: 2rem;
+  font-weight: var(--fw-bold);
+  color: var(--dark-cyan);
+}
+
