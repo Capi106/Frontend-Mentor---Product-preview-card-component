@@ -64,8 +64,8 @@ h3 {
 
 /* General styling */
 body {
-  /* min-height: 100vh; */
-  /* margin: 1rem; */
+  min-height: 100vh;
+  margin: 1rem;
   font-family: var(--ff-montserrat);
   color: var(--dark-grayish-blue);
   font-size: .875rem;
@@ -75,7 +75,7 @@ body {
 
 /* Product styling */
 .product {
-  margin: 1rem;
+  max-width: 600px;
   background-color: var(--white);
   border-radius: .5rem;
   overflow: hidden;
@@ -142,4 +142,25 @@ body {
 
 .button:hover {
   background-color: var(--very-dark-cyan);
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .product {
+    display: flex;
+  }
+
+  .product__img {
+    flex-basis: 50%;
+  }
+  
+  .product__content {
+    flex-basis: 50%;
+  }
 }
