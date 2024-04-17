@@ -86,6 +86,12 @@ body {
   letter-spacing: 5px;
 }
 
+.product__title {
+  font-size: 2rem;
+  font-family: var(--ff-fraunces);
+  color: var(--very-dark-blue);
+}
+
 .flex-group {
   display: flex;
   gap: 1rem;
