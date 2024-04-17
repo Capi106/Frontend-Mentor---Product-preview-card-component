@@ -81,6 +81,11 @@ body {
   padding: 1.5rem;
 }
 
+.product__category {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
 .flex-group {
   display: flex;
   gap: 1rem;
