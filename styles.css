@@ -1,5 +1,6 @@
 :root {
   --dark-cyan: #3c8067;
+  --very-dark-cyan: #214538;
   --cream: #f2ebe3;
 
   --very-dark-blue: #1c232b;
@@ -116,3 +117,29 @@ body {
   text-decoration: line-through;
 }
 
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding: .75rem 1.5rem;
+  color: var(--white);
+  font-size: .925rem;
+  font-weight: var(--fw-bold);
+  text-decoration: none;
+  background-color: var(--dark-cyan);
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.button[data-icon="shopping-cart"]::before {
+  content: "";
+  width: 15px;
+  height: 16px;
+  background-image: url('images/icon-cart.svg');
+}
+
+.button:hover {
+  background-color: var(--very-dark-cyan);
+}
