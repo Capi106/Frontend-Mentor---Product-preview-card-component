@@ -112,3 +112,7 @@ body {
   color: var(--dark-cyan);
 }
 
+.product__original-price {
+  text-decoration: line-through;
+}
+
